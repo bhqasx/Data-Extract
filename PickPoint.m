@@ -1,3 +1,7 @@
+%如果图片的x轴为对数坐标（以10为底），在执行该程序时，选择的第一个点应该在（1，0），
+%当提示'pick two points on x axis to get xscale'时，选择图上(1,0)和(10,0)两点，提示'Input
+%the difference of these two points'时输入10，最后得到的x值用10^(0.1*x)转换为真实值
+%
 clear all;
 filename=uigetfile;
 filename([1:find(filename=='.')-1])
